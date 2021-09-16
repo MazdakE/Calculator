@@ -32,7 +32,7 @@ namespace CalculatorApp
 
                 return new OkObjectResult(responseMessage);
             }
-            catch (Exception e)
+            catch
             {
                 return new BadRequestObjectResult("Your calculations are invalid. Try again!");
             }
